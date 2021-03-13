@@ -1,0 +1,14 @@
+{
+  "name": "nodeserverfolder",
+  "version": "1.0.0",
+  "description": "this is the realtime chat application using node js and io sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.0.0"
+  }
+}

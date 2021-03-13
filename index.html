@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://localhost:80/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <title>Real time chat application</title>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="bng.png" alt="logo">
+        <h1 class="heading">Welcome to public chat</h1>
+    </nav>
+    <div class="container">
+        <div class="right message">here the sender container detail </div>
+        <div class="left message">here the receiver container detail</div>
+
+    </div>
+    <div id="sendcontainer">
+
+        <input class="input"type="text">
+        <button class="btn">send</button>
+    </div>
+</body>
+
+</html>
